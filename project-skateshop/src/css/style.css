@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('/project-skateshop/src/img/hero.webp') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #ff3c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #cc2e00;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;  
+}
+
+.footer-container a {
+    color: #1da1f2;
+    text-decoration: none;
+}
+
+.red-icon {
+    color: red;
+}
+
+.fa-telegram {
+    color: #0088cc
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
+.footer-container i {
+    margin-right: 8px;
+}
+
+#features {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#features h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.fetures-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax)(220px, 1fr);
+    gap: 30px;
+}
+
+.feature-card {
+  background-color: #f4f4f4;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 15px;
+}
