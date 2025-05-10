@@ -25,7 +25,7 @@ nav a {
 }
 
 .hero {
-    background: url('/project-skateshop/src/img/hero.webp') no-repeat center center/cover;
+    background: url('..img/hero.webp') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 100px 20px;
